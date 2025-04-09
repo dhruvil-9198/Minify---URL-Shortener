@@ -1,12 +1,59 @@
-# React + Vite
+# Minify 🔗✨
+> Shorten your links. Expand your possibilities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minify is a full-stack URL shortener application built with **Vite + React** (frontend) and **Node.js + Express** (backend), powered by **MongoDB Atlas**.  
+It offers users a fast and seamless experience to create and manage shortened links.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔗 Instantly shorten any long URL
+- 🔒 Secure user authentication (using Clerk)
+- 📈 Track visits and timestamps for each shortened link
+- 📂 View and manage all your created links in a personal dashboard
+- 🌎 Deployed on **Netlify** (Frontend) and **Render** (Backend)
+- ⚡ Fully cloud-based with optimized performance
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: Vite + React
+- **Backend**: Node.js + Express
+- **Database**: MongoDB Atlas
+- **Authentication**: Clerk
+- **Deployment**: Netlify (Frontend), Render (Backend)
+
+---
+
+## 🌐 Live Project
+
+- https://miniify.netlify.app
+
+
+---
+
+## 🎯 Project Highlights
+
+- Full SPA (Single Page Application) routing
+- Clean, responsive, and mobile-friendly UI
+- Secure API endpoints with CORS management
+- Environment variables handled for production builds
+- Optimized performance for smooth experience
+
+---
+
+## 📣 Contributing
+
+Pull requests are welcome! Feel free to fork the repository and submit improvements.  
+If you find any issues or have suggestions, please open an issue.
+
+---
+
+## ✨ Special Thanks
+
+Thanks to all the open-source tools and libraries that made this project possible.  
+And special thanks to everyone who helped along the way! 🙏
+
+---
