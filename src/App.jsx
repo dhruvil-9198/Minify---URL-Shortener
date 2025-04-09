@@ -87,7 +87,7 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center flex-grow px-4 py-12">
         <SignedOut>
           <motion.div className='flex flex-col gap-8 items-center text-center' initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <h2 className='font-bold text-6xl text-indigo-800 drop-shadow-lg'>Welcome to Linkify</h2>
+            <h2 className='font-bold text-6xl text-indigo-800 drop-shadow-lg'>Welcome to Minify</h2>
             <p className='text-2xl text-indigo-600'>Sign in to create your own short links instantly!</p>
             <SignInButton>
               <button className='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full px-8 py-4 text-xl font-semibold shadow-lg transition-transform hover:scale-105'>
